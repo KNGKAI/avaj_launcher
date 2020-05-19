@@ -18,19 +18,19 @@ public class JetPlane extends Aircraft implements Flyable{
 			case "SUN":
 				latitude += 5;
 				height += 2;
-				System.out.printf("%s : %s\n", this, "NYOOOOOOOM");
+				System.out.printf("%s : %s\n", this, "im blind");
 				break;
 			case "RAIN":
 				latitude += 5;
-				System.out.printf("%s : %s\n", this, "Whooosh...");
+				System.out.printf("%s : %s\n", this, "so much water");
 				break;
 			case "FOG":
 				latitude += 1;
-				System.out.printf("%s : %s\n", this, "I am the cloud.");
+				System.out.printf("%s : %s\n", this, "omg");
 				break;
 			case "SNOW":
 				height -= 7;
-				System.out.printf("%s : %s\n", this, "Less whoosh...");
+				System.out.printf("%s : %s\n", this, "whats goin on");
 		};
 
 		coordinates = new Coordinates(longitude, latitude, height);

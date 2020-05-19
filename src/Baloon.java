@@ -17,19 +17,19 @@ public class Baloon extends Aircraft implements Flyable {
 			case "SUN":
 				longitude += 2;
 				height += 4;
-				System.out.printf("%s : %s\n", this, "Let it simmer.");
+				System.out.printf("%s : %s\n", this, "shinny");
 				break;
 			case "RAIN":
 				height -= 5;
-				System.out.printf("%s : %s\n", this, "Well thats no good for this braai.");
+				System.out.printf("%s : %s\n", this, "ah its wet");
 				break;
 			case "FOG":
-				System.out.printf("%s : %s\n", this, "I cant see my chops.");
+				System.out.printf("%s : %s\n", this, "what.");
 				height -= 3;
 				break;
 			case "SNOW":
 				height -= 15;
-				System.out.printf("%s : %s\n", this, "There goes the neiberhood.");
+				System.out.printf("%s : %s\n", this, "going Down.");
 		};
 
 		coordinates = new Coordinates(longitude, latitude, height);

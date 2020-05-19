@@ -17,19 +17,19 @@ public class Helicopter extends Aircraft implements Flyable {
 			case "SUN":
 				latitude += 10;
 				height += 2;
-				System.out.printf("%s : %s \n", this, "Chop Chop its sunny.");
+				System.out.printf("%s : %s \n", this, "pleasant");
 				break;
 			case "RAIN":
 				latitude += 5;
-				System.out.printf("%s : %s \n", this, "RAAAAAAIN.");
+				System.out.printf("%s : %s \n", this, "rain rain go away");
 				break;
 			case "FOG":
 				longitude += 1;
-				System.out.printf("%s : %s \n", this, "Is that you peter?");
+				System.out.printf("%s : %s \n", this, "where am i");
 				break;
 			case "SNOW":
 				height -= 12;
-				System.out.printf("%s : %s \n", this, "Heck");
+				System.out.printf("%s : %s \n", this, "not again");
 		};
 		
 		coordinates = new Coordinates(longitude, latitude, height);

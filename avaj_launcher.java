@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.lang.RuntimeException;
 
 import src.AircraftFactory;
-import src.Flyable;
 import src.WeatherTower;
 
 public class avaj_launcher {
@@ -120,7 +119,7 @@ public class avaj_launcher {
 				for(int a = 0; a < n; a++)
 					tower.changeWeather();
 			} catch (FileNotFoundException ex){
-				System.err.println("Could not read the file provided");
+				System.err.println("Could not read file");
 			} catch (RuntimeException ex){
 				System.err.printf("An exception has occured: %s\n", ex.getMessage());
 				ex.printStackTrace();
